@@ -1,0 +1,72 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+@import url("components/button.css");
+@import url("components/cards.css");
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.banner {
+  background-image: url(../images/background.png);
+  background-size: cover;
+  background-position: center;
+  height: 560px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.footer {
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: grey;
+  height: 200px;
+}
+
+.footer a {
+  font-size: 30px;
+  color: rgb(97, 216, 97);
+}
+
+/* .social-logos {
+  color: rgb(96, 255, 96);
+} */
